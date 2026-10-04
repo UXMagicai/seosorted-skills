@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "seosorted": {
+      "type": "http",
+      "url": "https://seosorted.ai/api/mcp"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "seosorted",
+  "owner": { "name": "SEOsorted", "email": "hello@seosorted.ai", "url": "https://seosorted.ai" },
+  "description": "SEOsorted agent skills and the SEOsorted MCP server.",
+  "plugins": [
+    {
+      "name": "seosorted",
+      "source": ".",
+      "displayName": "SEOsorted",
+      "version": "1.0.0",
+      "description": "SEO and AI-search visibility skills backed by the SEOsorted MCP server."
+    }
+  ]
+}

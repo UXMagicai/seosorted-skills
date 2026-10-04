@@ -1,0 +1,11 @@
+{
+  "name": "seosorted",
+  "displayName": "SEOsorted",
+  "version": "1.0.0",
+  "description": "SEO and AI-search visibility for your agent: site audits, keyword research, cannibalization checks, article generation and CMS publishing, Search Console analytics, AI citation outreach, AI crawler analytics and YouTube citation strategy — powered by SEOsorted.ai.",
+  "author": { "name": "SEOsorted", "email": "hello@seosorted.ai", "url": "https://seosorted.ai" },
+  "homepage": "https://seosorted.ai",
+  "repository": "https://github.com/UXMagicai/seosorted-skills",
+  "license": "MIT",
+  "keywords": ["seo", "geo", "aeo", "ai-visibility", "keyword-research", "content-marketing", "search-console", "wordpress", "webflow", "shopify", "mcp"]
+}
