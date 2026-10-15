@@ -9,10 +9,10 @@ Comparison searches ("brand vs competitor", "competitor alternatives") come from
 
 ## Steps
 
-1. `analyze_competitors` `operation: "list"`. If a key competitor is missing, add it: `operation: "add"` with its URL (EDITOR).
-2. `create_comparison_page` `operation: "list"` to see which comparisons exist and their status.
+1. `manage_competitors` `operation: "list"`. If a key competitor is missing, add it: `operation: "add"` with its URL (EDITOR).
+2. `write_comparison_page` `operation: "list"` to see which comparisons exist and their status.
 3. Prioritise: competitors the user loses deals to, and competitors with the highest search interest. Check volume for "<competitor> alternative" and "<brand> vs <competitor>" with `research_keywords` `operation: "metrics"`.
-4. Confirm credits (one article credit each), then `create_comparison_page` `operation: "generate"` with `competitor_id` and an optional `brief` (positioning points, pricing facts with their source, what the user wants emphasised). Poll `check_job`.
+4. Confirm credits (one article credit each), then `write_comparison_page` `operation: "generate"` with `competitor_id` and an optional `brief` (positioning points, pricing facts with their source, what the user wants emphasised). Poll `check_job_status`.
 5. Review with `manage_articles` `operation: "get"`: every competitor claim must be sourced and current, and the "where they offer more" section must be real.
 
 ## Guardrails

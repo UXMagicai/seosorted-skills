@@ -7,14 +7,19 @@ description: Track how often ChatGPT, Claude, Perplexity, Gemini and Google AI O
 
 ## Steps
 
-1. `track_ai_visibility` `operation: "summary"`. If there is no data yet, go to step 3.
+1. `track_ai_search_visibility` `operation: "summary"`. If there is no data yet, go to step 3.
 2. `operation: "prompts"` to see which buyer questions are tracked. Good prompts are what a buyer actually types: "best X for Y", "X vs Y", "how do I solve Z". Propose additions for gaps (each product line, each competitor comparison, the main problem) and add with `operation: "add_prompts"` (EDITOR) — each prompt is `{text, topic}`, up to 25 per call. The plan sets how many prompts can be tracked; respect the limit the tool reports.
-3. `operation: "scan"` to run a fresh scan (one AI-visibility scan credit). Poll `check_job`.
+3. `operation: "scan"` to run a fresh scan (one AI-visibility scan credit). Poll `check_job_status`.
 4. Present:
    - Visibility score and share of voice against each competitor.
    - Per engine: mentioned / cited / absent.
    - Prompts where competitors appear and the brand does not — the gap list.
    - Pages of the site that engines already cite (defend these).
+
+## Why engines skip the site
+
+- `operation: "readiness"` — AI-readiness score out of 100: robots.txt access for AI crawlers, text visible without JavaScript, backlink strength, JSON-LD on key pages, with a fix brief. Free; `refresh: true` re-checks in the background.
+- `operation: "citations"` — third-party pages AI answers cited that name the brand, and whether they link here. Unlinked ones → `link-building-playbooks` (unlinked mentions).
 
 ## Next
 

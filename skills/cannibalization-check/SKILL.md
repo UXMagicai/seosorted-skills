@@ -10,7 +10,7 @@ Two keywords that look different can be one query to Google ("mounjaro weight lo
 ## Steps
 
 1. Collect the candidate keywords (up to 25 per call).
-2. `check_cannibalization` with `terms` and `compare_existing: true` so every term is also compared with the workspace's existing articles. Each term costs one keyword-lookup credit; say so for large lists.
+2. `check_keyword_overlap` with `terms` and `compare_existing: true` so every term is also compared with the workspace's existing articles. Each term costs one keyword-lookup credit; say so for large lists.
 3. Read the verdicts:
    - **7–10 shared URLs**: same intent. Do not write both. Keep the higher-volume keyword; fold the other in as a secondary keyword or a section.
    - **4–6 shared**: borderline. Both can exist only with clearly different angles (a dosage chart vs a mechanism explainer). Write the angle into the brief.
