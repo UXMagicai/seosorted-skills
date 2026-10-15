@@ -35,18 +35,24 @@ Flag gaps plainly: no Search Console = no performance data or striking-distance 
 
 AI-search work runs alongside: `ai-visibility-tracker`, `ai-citation-outreach`, `ai-crawler-analytics`, `youtube-citation-strategy`.
 
-Authority and positioning: `competitor-analysis`, `comparison-pages`, `backlinks`, `link-building-playbooks`, `statistics-page`.
+Authority and positioning: `competitor-analysis`, `domain-authority-check`, `serp-analysis`, `comparison-pages`, `backlinks`, `link-reclamation`, `backlink-outreach`, `link-building-playbooks`, `statistics-page`.
 
-Planning: `seo-master-plan` (90-day plan), `brand-voice-setup` (do this before bulk writing).
+Editing what exists: `update-and-republish` (text, meta, images, republish), `page-seo-audit` (any URL).
 
-No account needed: `technical-seo-check`, `find-questions`, `llms-txt-generator`.
+YouTube: `youtube-keyword-research`, `youtube-outliers`, `youtube-channel-audit`, `youtube-creator-outreach`.
+
+Planning and setup: `seo-master-plan` (90-day plan), `brand-voice-setup` and `site-settings` (do these before bulk writing).
+
+Free checks (work without an account, better with one): `technical-seo-check`, `find-questions`, `llms-txt-generator`.
 
 ## 4. Routing rules
 
 - "Write about X" with one keyword → `write-article`. Ten or more keywords → `bulk-content-run`.
 - "Why did traffic drop" / "what's working" → `seo-report`, then `content-refresh`.
 - "Are we showing up in ChatGPT" → `ai-visibility-tracker`; "get us mentioned" → `ai-citation-outreach`.
-- Anything that publishes, schedules, or spends credits: state what will happen and the credits it uses, and get a yes first.
+- "Fix / edit / update this article" → `update-and-republish`. "Check this URL" → `page-seo-audit`.
+- "What's the DR of…" → `domain-authority-check`. "Who ranks for…" / "where do we rank" → `serp-analysis`.
+- Anything that publishes, schedules, deletes, or spends credits: state what will happen and the credits it uses, and get a yes first. Tools that change things outside SEOsorted require `confirm: true`; set it only after the user agrees, and use `dryRun: true` to preview.
 
 ## Ground rules for every skill
 

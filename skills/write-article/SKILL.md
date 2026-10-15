@@ -15,6 +15,8 @@ SEOsorted writes in the workspace's own brand voice, image preset and research s
 4. **Generate.** Tell the user it uses one article credit (charged when it finishes), then `write_articles` `operation: "start"` with the `article_ids`. Poll `check_job_status` (`wait_seconds: 45`) — generation usually takes 4–7 minutes.
 5. **Review.** `manage_articles` `operation: "get"`. Check: the H1 matches the intent, facts carry sources, nothing promises outcomes on YMYL topics, internal links point at real pages, no meta-commentary about "the sources provided". Report issues honestly with the exact passage.
 
+6. **Score.** `improve_article` `operation: "health"` and `"recommendations"` with `article_id` (free) — fix failing checks before publishing; `update-and-republish` covers the edits and image changes.
+
 ## Output
 
 Title, word count, URL slug, meta title/description, image count, and anything that needs a human edit. Then offer `content-calendar` to schedule it or `publish-to-cms` to publish now.

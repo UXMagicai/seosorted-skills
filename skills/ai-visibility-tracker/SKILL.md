@@ -16,6 +16,11 @@ description: Track how often ChatGPT, Claude, Perplexity, Gemini and Google AI O
    - Prompts where competitors appear and the brand does not — the gap list.
    - Pages of the site that engines already cite (defend these).
 
+## Why engines skip the site
+
+- `operation: "readiness"` — AI-readiness score out of 100: robots.txt access for AI crawlers, text visible without JavaScript, backlink strength, JSON-LD on key pages, with a fix brief. Free; `refresh: true` re-checks in the background.
+- `operation: "citations"` — third-party pages AI answers cited that name the brand, and whether they link here. Unlinked ones → `link-building-playbooks` (unlinked mentions).
+
 ## Next
 
 - Gap prompts → `ai-citation-outreach` to find the pages engines cite for them and get mentioned there.

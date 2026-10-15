@@ -10,7 +10,7 @@ allowed-tools: WebFetch Bash(curl *)
 
 ## Steps
 
-1. Fetch the home page, `/sitemap.xml` (or the sitemap from robots.txt), and the main navigation.
+1. Fetch the home page, `/sitemap.xml` (or the sitemap from robots.txt), and the main navigation. With SEOsorted connected, `audit_any_page` `operation: "sitemap"` with the site `url` finds and reads the sitemap for you (free).
 2. Pick the pages that matter most: product/service pages, pricing, docs or guides, about, contact, and the 10–20 best articles. Skip tag pages, pagination, legal boilerplate (except a privacy/terms link in "Optional").
 3. Fetch each chosen page's title and write a one-line description of what it answers, in plain language.
 4. Write the file in this format:

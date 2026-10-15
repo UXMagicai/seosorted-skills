@@ -11,7 +11,13 @@ Audit before writing anything new. Adding pages to a site with indexing, speed o
 
 1. `audit_my_site` with `operation: "report"` (no `audit_id`) to see whether a recent audit exists. If it is under 14 days old and the user has not changed the site since, use it.
 2. Otherwise tell the user an audit uses one audit credit, then `audit_my_site` with `operation: "start"`. Poll `check_job_status` with `wait_seconds: 45` until it completes (audits usually take a few minutes; keep the user posted).
-3. `audit_my_site` with `operation: "report"` for the finished audit.
+3. `audit_my_site` with `operation: "report"` for the finished audit. `operation: "history"` shows the score trend across past audits.
+
+## Track fixes
+
+- `audit_my_site` `operation: "issues"` with `status: "open"` (filter by `severity`, `category`) lists every issue with its id, fix-step ids and affected URLs.
+- When the user says a fix is done, `operation: "update_issue"` with `issue_id` (and `step_id` for one step) and `done: true`; `done: false` reopens it. Free.
+- To verify one fixed page without a new crawl, `audit_any_page` `operation: "audit"` with its `url` (free) — see `page-seo-audit`.
 
 ## How to present it
 
