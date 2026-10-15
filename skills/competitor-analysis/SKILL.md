@@ -7,11 +7,11 @@ description: Analyze SEO competitors with SEOsorted — traffic estimates, autho
 
 ## Steps
 
-1. `analyze_competitors` `operation: "list"` for tracked competitors with their measurements. If any show as unmeasured, run `operation: "score"` and poll `check_job`.
+1. `manage_competitors` `operation: "list"` for tracked competitors with their measurements. If any show as unmeasured, run `operation: "score"` and poll `check_job_status`.
 2. Add missing competitors with `operation: "add"` (EDITOR; up to the workspace limit). Use the domains that actually outrank the user for their main keywords, not only business rivals.
-3. `run_site_audit` `operation: "report"` for audit benchmarks against competitors, if present.
-4. `analyze_competitors` `operation: "backlink_gap"` for the strongest competitor: domains linking to them but not to the user (paid plans; pass on the upgrade link if returned).
-5. `track_ai_visibility` `operation: "summary"` for share of voice against the same competitors in AI answers.
+3. `audit_my_site` `operation: "report"` for audit benchmarks against competitors, if present.
+4. `manage_competitors` `operation: "backlink_gap"` for the strongest competitor: domains linking to them but not to the user (paid plans; pass on the upgrade link if returned).
+5. `track_ai_search_visibility` `operation: "summary"` for share of voice against the same competitors in AI answers.
 
 ## Output
 

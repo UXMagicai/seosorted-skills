@@ -7,8 +7,8 @@ description: Define a website's brand voice, tone, audience and writing rules so
 
 ## Steps
 
-1. `get_workspace_overview` for the current brand voice, voice preset, persona and image presets.
-2. Read 3–5 of the site's best pages (the user's picks, or the top pages from `get_search_performance` `view: "top_pages"`) with the agent's own web fetch.
+1. `get_site_overview` for the current brand voice, voice preset, persona and image presets.
+2. Read 3–5 of the site's best pages (the user's picks, or the top pages from `get_search_traffic` `view: "top_pages"`) with the agent's own web fetch.
 3. Write a voice profile:
    - **Audience:** who reads, what they already know, what they worry about.
    - **Tone:** 3 adjectives, each with "this, not that" (e.g. "direct, not blunt").

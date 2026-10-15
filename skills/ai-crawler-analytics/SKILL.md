@@ -7,7 +7,7 @@ description: See which AI crawlers and bots (GPTBot, ClaudeBot, PerplexityBot, G
 
 ## Steps
 
-1. `get_ai_crawler_traffic` `view: "summary"`, `days: 30`. If tracking is not installed, explain it is a one-line setup in SEOsorted (Bot traffic → settings) and stop.
+1. `get_ai_bot_traffic` `view: "summary"`, `days: 30`. If tracking is not installed, explain it is a one-line setup in SEOsorted (Bot traffic → settings) and stop.
 2. Present visits by vendor (OpenAI, Anthropic, Perplexity, Google, Microsoft, others), trend, and share that are AI crawlers vs search crawlers.
 3. `view: "vendor_pages"` with the top vendor(s) to see which pages they read most — these are the pages most likely to feed AI answers.
 4. `view: "missing_pages"`: URLs bots request that return 404. Each is either a page worth creating (bots expect it — often from old links or hallucinated URLs) or a redirect to add.

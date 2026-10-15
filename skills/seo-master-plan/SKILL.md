@@ -12,7 +12,7 @@ Two routes:
 
 ## Building the 90-day plan
 
-1. **Baseline (day 1):** `get_workspace_overview`, `run_site_audit` `operation: "report"` (start one if none exists), `get_search_performance` `view: "overview"`, `track_ai_visibility` `operation: "summary"`.
+1. **Baseline (day 1):** `get_site_overview`, `audit_my_site` `operation: "report"` (start one if none exists), `get_search_traffic` `view: "overview"`, `track_ai_search_visibility` `operation: "summary"`.
 2. **Weeks 1–2, fix:** critical audit issues; connect Search Console, GA4 and the CMS if missing; set brand voice and image style (`brand-voice-setup`).
 3. **Weeks 2–4, plan:** `keyword-research` → `topic-clusters` → `cannibalization-check`. Pick 2–3 clusters to own this quarter.
 4. **Weeks 3–12, publish:** pillar pages first, then supporting articles via `bulk-content-run`; schedule with `content-calendar` at a cadence the quota supports (quota per month × 3 months = articles this quarter).

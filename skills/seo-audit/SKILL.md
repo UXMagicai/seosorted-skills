@@ -9,9 +9,9 @@ Audit before writing anything new. Adding pages to a site with indexing, speed o
 
 ## Steps
 
-1. `run_site_audit` with `operation: "report"` (no `audit_id`) to see whether a recent audit exists. If it is under 14 days old and the user has not changed the site since, use it.
-2. Otherwise tell the user an audit uses one audit credit, then `run_site_audit` with `operation: "start"`. Poll `check_job` with `wait_seconds: 45` until it completes (audits usually take a few minutes; keep the user posted).
-3. `run_site_audit` with `operation: "report"` for the finished audit.
+1. `audit_my_site` with `operation: "report"` (no `audit_id`) to see whether a recent audit exists. If it is under 14 days old and the user has not changed the site since, use it.
+2. Otherwise tell the user an audit uses one audit credit, then `audit_my_site` with `operation: "start"`. Poll `check_job_status` with `wait_seconds: 45` until it completes (audits usually take a few minutes; keep the user posted).
+3. `audit_my_site` with `operation: "report"` for the finished audit.
 
 ## How to present it
 

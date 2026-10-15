@@ -20,7 +20,7 @@ Find well-linked articles quoting old numbers in the niche. Create or point to a
 Search `"<topic>" inurl:resources` and `"<topic>" "helpful links"`. Pitch the single best page for that list, not the homepage.
 
 ## 5. AI-citation listicles
-Use `find_citation_prospects` (see `ai-citation-outreach`) — pages AI engines cite are the most valuable links to earn now.
+Use `find_backlink_prospects` (see `ai-citation-outreach`) — pages AI engines cite are the most valuable links to earn now.
 
 ## For every playbook
 

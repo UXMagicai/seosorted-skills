@@ -7,7 +7,7 @@ description: Find SEO keywords with real search volume, keyword difficulty, CPC 
 
 ## Steps
 
-1. `get_workspace_overview` for the business, market and what already exists (saved keywords by bucket, articles).
+1. `get_site_overview` for the business, market and what already exists (saved keywords by bucket, articles).
 2. Pick 3–8 seeds from the business: core product terms, problems the customer has, the categories competitors rank for. Ask the user for seeds only if the business is unclear.
 3. `research_keywords` `operation: "ideas"` per seed (each call uses one keyword-lookup credit). Collect results.
 4. Filter hard:

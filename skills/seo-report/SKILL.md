@@ -7,11 +7,11 @@ description: Produce an SEO performance report from SEOsorted's Google Search Co
 
 ## Steps
 
-1. `get_search_performance` `view: "overview"` for the period (default `days: 28`; use 90 for quarterly) — totals and change against the previous period.
+1. `get_search_traffic` `view: "overview"` for the period (default `days: 28`; use 90 for quarterly) — totals and change against the previous period.
 2. `view: "top_pages"` for the pages driving clicks and impressions.
 3. `view: "opportunities"` and `view: "decaying"` for what to do next.
 4. Optional depth: `view: "page"` with `page_url` for a page that moved a lot.
-5. `track_ai_visibility` `operation: "summary"` and `get_ai_crawler_traffic` `view: "summary"` for the AI-search side.
+5. `track_ai_search_visibility` `operation: "summary"` and `get_ai_bot_traffic` `view: "summary"` for the AI-search side.
 
 ## Report structure
 

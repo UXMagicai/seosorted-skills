@@ -83,22 +83,22 @@ The skills hold the playbooks; the [SEOsorted MCP server](https://seosorted.ai/a
 
 | MCP tool | Used for |
 |---|---|
-| `get_workspace_overview` | Site, connections, content state, quota |
+| `get_site_overview` | Site, connections, content state, quota |
 | `research_keywords` | Ideas, metrics, save, list |
-| `check_cannibalization` | SERP-overlap test |
-| `run_site_audit` | Start an audit, read the report |
+| `check_keyword_overlap` | SERP-overlap test |
+| `audit_my_site` | Start an audit, read the report |
 | `manage_articles` | List, read, draft, suggest titles |
-| `generate_articles` | Generate one or many, track runs |
-| `schedule_and_publish` | Schedule, publish, republish (asks for confirmation) |
-| `check_job` | Poll long-running work |
-| `get_search_performance` | Search Console overview, opportunities, decaying pages, page queries |
-| `track_ai_visibility` | Prompts, scans, share of voice |
-| `get_ai_crawler_traffic` | AI bot visits and missing pages |
-| `analyze_competitors` | Competitors, scores, backlink gap |
-| `create_comparison_page` | Comparison pages |
-| `plan_youtube_content` | YouTube strategy, topics, creator targets, scripts |
-| `find_citation_prospects` | AI-cited sites and their contacts |
-| `get_cited_youtube_videos` | AI-cited videos and transcripts |
+| `write_articles` | Generate one or many, track runs |
+| `publish_articles` | Schedule, publish, republish (asks for confirmation) |
+| `check_job_status` | Poll long-running work |
+| `get_search_traffic` | Search Console overview, opportunities, decaying pages, page queries |
+| `track_ai_search_visibility` | Prompts, scans, share of voice |
+| `get_ai_bot_traffic` | AI bot visits and missing pages |
+| `manage_competitors` | Competitors, scores, backlink gap |
+| `write_comparison_page` | Comparison pages |
+| `plan_youtube_videos` | YouTube strategy, topics, creator targets, scripts |
+| `find_backlink_prospects` | AI-cited sites and their contacts |
+| `find_youtube_videos_cited_by_ai` | AI-cited videos and transcripts |
 
 Credits follow your SEOsorted plan; tools report what is left before you spend it. Anything that publishes asks for confirmation first.
 

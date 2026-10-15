@@ -9,7 +9,7 @@ SEOsorted.ai researches, writes, publishes and measures SEO content for a websit
 
 ## 1. Make sure the connection works
 
-Call `get_workspace_overview`. If the tool is missing or returns an auth error:
+Call `get_site_overview`. If the tool is missing or returns an auth error:
 
 - Claude Code: run `/mcp`, select **seosorted**, and authenticate. A browser window opens on seosorted.ai; the user signs in and picks **one workspace** (one website). Every tool then works on that workspace.
 - No account yet: send the user to https://seosorted.ai to create one. Onboarding (website, business, competitors) is what makes everything downstream good — do not skip it.
@@ -17,7 +17,7 @@ Call `get_workspace_overview`. If the tool is missing or returns an auth error:
 
 ## 2. Read the workspace before recommending anything
 
-From `get_workspace_overview`, note: website and business, connections (CMS for publishing, Google Search Console, GA4), content counts by status, keywords by opportunity bucket, next scheduled posts, last audit, quota left this month, and any active generation run.
+From `get_site_overview`, note: website and business, connections (CMS for publishing, Google Search Console, GA4), content counts by status, keywords by opportunity bucket, next scheduled posts, last audit, quota left this month, and any active generation run.
 
 Flag gaps plainly: no Search Console = no performance data or striking-distance work; no CMS = articles cannot auto-publish; nothing scheduled = the publishing cadence has stopped.
 

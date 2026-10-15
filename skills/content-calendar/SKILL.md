@@ -9,11 +9,11 @@ Scheduled articles auto-publish to the connected CMS. If nothing is scheduled, p
 
 ## Steps
 
-1. `get_workspace_overview`: next scheduled posts, counts by status, the default publishing integration.
+1. `get_site_overview`: next scheduled posts, counts by status, the default publishing integration.
 2. `manage_articles` `operation: "list"` with `status: "READY"` for articles waiting to be scheduled.
 3. Propose a cadence. Defaults: 1–2 posts per day for an established site, 3–4 per week for a new one. Spread clusters out rather than publishing one topic in a burst. Order by opportunity (quick wins first) and seasonality.
 4. Show the proposed schedule as a table (date, time, title, keyword). Get approval.
-5. `schedule_and_publish` `operation: "schedule"` per article with `scheduled_for` (ISO date-time, future) and `confirm: true`. Use `dryRun: true` first if the user wants to preview.
+5. `publish_articles` `operation: "schedule"` per article with `scheduled_for` (ISO date-time, future) and `confirm: true`. Use `dryRun: true` first if the user wants to preview.
 
 ## Notes
 

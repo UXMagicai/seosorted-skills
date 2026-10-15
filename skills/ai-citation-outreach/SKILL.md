@@ -10,7 +10,7 @@ AI engines answer buyer questions by quoting a small set of trusted pages. Getti
 ## Steps
 
 1. Choose up to 10 buyer prompts. Use the gap list from `ai-visibility-tracker` if available; otherwise let the tool write them from the workspace's business context (omit `prompts`).
-2. `find_citation_prospects` with `prompts`, `surfaces` (start with `["google_ai_overview"]`; add `chat_gpt`, `perplexity`, `claude`, `gemini` to compare), `country: "auto"`, `max_prospects: 10–25`.
+2. `find_backlink_prospects` with `prompts`, `surfaces` (start with `["google_ai_overview"]`; add `chat_gpt`, `perplexity`, `claude`, `gemini` to compare), `country: "auto"`, `max_prospects: 10–25`.
 3. Read the result: sites ranked by how many prompts cite them (topical authority), the exact passage each engine quoted, and contacts.
 4. For the top 5–10 sites draft one specific pitch each:
    - Reference the exact cited page and what it is trusted for (the quoted passage).
