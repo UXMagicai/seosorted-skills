@@ -28,7 +28,7 @@ Per prospect, `build_backlinks` `operation: "draft_pitch"` with:
 - `our_page_url` — the page to pitch (default homepage; a specific page converts better)
 - `contact_name` if known, `notes` for specifics (the broken link, the outdated figure)
 
-1 AI credit each. It returns subject, body and a follow-up, personalised from the page and the workspace's brand voice. Read each one and tighten it: under 120 words, one clear ask.
+Free. It returns subject, body and a follow-up, personalised from the page and the workspace's brand voice. Read each one and tighten it: under 120 words, one clear ask.
 
 ## Output
 

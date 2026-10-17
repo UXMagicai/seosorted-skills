@@ -11,7 +11,7 @@ description: Find YouTube video keywords and questions with search volume and a 
 
 1. **Ideas and competition:** `research_youtube` `operation: "keyword_research"` with `query` (the seed), `limit` (up to 50 ideas) and `competition_for` (how many top keywords get a competition reading; default 3). 1 keyword lookup credit. Competition is low/medium/high: high means median channel ≥1M subscribers or average views ≥1M; low means both under 50K.
 2. **What ranks:** for the 2–3 best keywords, `operation: "search_videos"` with `query` — top results with views, channel subscribers, views per subscriber, age and length (1 credit each). Small channels with high views per subscriber mean the topic is winnable.
-3. **Titles:** `operation: "title_ideas"` with `query` and `limit` — new titles written against those ranking now (1 keyword lookup and 1 AI credit).
+3. **Titles:** `operation: "title_ideas"` with `query` and `limit` — new titles written against those ranking now (1 keyword lookup).
 4. `country` sets the market (default the workspace's).
 
 Tell the user the credit total before running several seeds.
