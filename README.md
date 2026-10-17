@@ -84,6 +84,7 @@ and add the MCP server yourself: `https://seosorted.ai/api/mcp` (streamable HTTP
 | Skill | What it does |
 |---|---|
 | `technical-seo-check` | robots.txt (incl. AI crawlers), sitemap, canonicals, titles, broken links |
+| `technical-audit-report` | Full-site technical audit + Lighthouse for every page, delivered as a client-ready Excel workbook (runs locally, no API keys) |
 | `find-questions` | Real questions people ask, grouped into FAQs and article ideas |
 | `llms-txt-generator` | A ready-to-upload `llms.txt` for your site |
 
