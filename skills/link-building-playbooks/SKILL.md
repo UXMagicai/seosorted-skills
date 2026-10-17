@@ -5,7 +5,7 @@ description: Run white-hat link-building playbooks end to end — broken link re
 
 # Link-building playbooks
 
-Pick one playbook per campaign. Each ends with a short prospect list and a drafted email per prospect, written with `build_backlinks` `operation: "draft_pitch"` (1 AI credit each; it only drafts, nothing is sent).
+Pick one playbook per campaign. Each ends with a short prospect list and a drafted email per prospect, written with `build_backlinks` `operation: "draft_pitch"` (free; it only drafts, nothing is sent).
 
 ## 1. Link reclamation (start here)
 `build_backlinks` `operation: "reclaim"` — links already pointing at dead pages on the user's site, with a suggested live page to redirect to. Fixing these needs no outreach. See `link-reclamation`.

@@ -43,15 +43,15 @@ All tools act on the workspace chosen at sign-in. Long operations return a job i
 
 | Tool | Operations | Credits |
 |---|---|---|
-| `build_backlinks` | links, anchors, new_lost, reclaim, intersect, draft_pitch | 1 keyword lookup each; intersect 1 per competitor; draft_pitch 1 AI credit (drafts only) |
+| `build_backlinks` | links, anchors, new_lost, reclaim, intersect, draft_pitch | 1 keyword lookup each; intersect 1 per competitor; draft_pitch free (drafts only) |
 | `find_backlink_prospects` | — | none |
 
 ## YouTube
 
 | Tool | Operations | Credits |
 |---|---|---|
-| `research_youtube` | keyword_research, search_videos, outliers, trending, channel_search, channel_stats, video_details, title_ideas | 1 keyword lookup for keyword_research, search_videos, query outliers; title_ideas adds 1 AI credit; the rest free |
-| `analyze_any_youtube_channel` | — | none; `profile: true` 1 AI credit |
+| `research_youtube` | keyword_research, search_videos, outliers, trending, channel_search, channel_stats, video_details, title_ideas | 1 keyword lookup for keyword_research, search_videos, query outliers; title_ideas 1 keyword lookup; the rest free |
+| `analyze_any_youtube_channel` | — | none; `profile: true` 1 keyword lookup |
 | `manage_my_youtube_channel` | analysis, run_analysis, published, update_video | none |
 | `plan_youtube_videos` | strategy, topics, starter_topics, generate_topics, add_topic, update_topic, delete_topics, suggest_titles, targets, set_targets, write_script, list_scripts, read_script, export_script, update_script, edit_script, duplicate_script, delete_script | 1 YouTube script for write_script; edit_script 1+ AI credit |
 | `find_youtube_videos_cited_by_ai` | — | none |

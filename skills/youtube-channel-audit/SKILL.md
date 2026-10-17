@@ -9,7 +9,7 @@ description: Audit the YouTube SEO of any public channel or video with SEOsorted
 
 1. `analyze_any_youtube_channel` with `channel` (URL, @handle or UC… id) and `sample` (5–50 recent uploads, default 30). Returns subscribers, median and average views, engagement, upload cadence, Shorts share, the five most-viewed videos, a per-video metadata audit and channel-wide pass rates. Free.
 2. Add `target_keyword` for keyword checks in title, description opening and tags.
-3. `profile: true` adds an AI read of content mix, tone and recurring topics — 1 AI credit; ask first.
+3. `profile: true` adds an AI read of content mix, tone and recurring topics — 1 keyword lookup; ask first.
 4. Individual videos: `videos` (up to 10 URLs or ids) instead of `channel`; with 5 or fewer, captions are read to check whether the keyword is spoken in the opening (`transcripts: false` skips that).
 5. Fuller stats: `research_youtube` `operation: "channel_stats"` with `channel` (free) — uploads in the last 30/90 days and recent videos.
 
